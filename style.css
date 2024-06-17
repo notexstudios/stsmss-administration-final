@@ -129,6 +129,7 @@ div.responsive-fix-01{
     .messages2 .content-left p {
         width: 90%;
         margin: 0 auto;
+        
     }
 }
 
@@ -138,42 +139,7 @@ div.responsive-fix-01{
         flex-direction: column;
     }
     
-    .messages1 .content-left, 
-    .messages1 .content-right,
-    .messages2 .content-left,
-    .messages2 .content-right {
-        order: initial;
-    }
     
-    .messages1 .content-left img:nth-of-type(1), 
-    .messages2 .content-right p:nth-of-type(1) {
-        order: 1;
-    }
-    
-    .messages1 .content-right img:nth-of-type(1), 
-    .messages2 .content-left p:nth-of-type(1) {
-        order: 2;
-    }
-    
-    .messages1 .content-left img:nth-of-type(2), 
-    .messages2 .content-right p:nth-of-type(2) {
-        order: 3;
-    }
-    
-    .messages1 .content-right img:nth-of-type(2), 
-    .messages2 .content-left p:nth-of-type(2) {
-        order: 4;
-    }
-    
-    .messages1 .content-left img:nth-of-type(3), 
-    .messages2 .content-right p:nth-of-type(3) {
-        order: 5;
-    }
-    
-    .messages1 .content-right img:nth-of-type(3), 
-    .messages2 .content-left p:nth-of-type(3) {
-        order: 6;
-    }
 
     div.responsive-fix-01{
         display: block;
@@ -183,7 +149,8 @@ div.responsive-fix-01{
         display:none;
     }
 
-    .messages1 .content-right p{ 
+    .messages1 .content-right p,
+    .messages2 .content-left p{ 
         font-size: 16px;  
     }
 }
